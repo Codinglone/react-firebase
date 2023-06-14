@@ -6,7 +6,14 @@ function App() {
 
   return (
     <>
-     <h1>Firebase React Auth</h1>
+     <div>
+        <section>
+          <Routes>
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+          </Routes>
+        </section>
+     </div>
     </>
   )
 }
