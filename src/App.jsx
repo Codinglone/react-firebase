@@ -1,3 +1,6 @@
+import { Routes, Route } from "react-router-dom"
+import Login from "./page/Login"
+import Signup from "./page/Signup"
 
 function App() {
 
